@@ -1,4 +1,3 @@
-# GitHub pages for Olof
+# Olof Nord
 
-What to put here exactly is yet to be decided.
-
+The GitHub page for contact details and my projects.
