@@ -1,15 +1,22 @@
 {
   "name": "olof-site",
-  "version": "0.0.0",
+  "description": "Home for my projects on GitHub",
+  "version": "0.1.0",
+  "homepage": "https://olof-nord.github.io",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:olof-nord/olof-nord.github.io.git"
+  },
+  "author": {
+    "name": "Olof Nord"
+  },
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --open",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "~9.1.6",
     "@angular/common": "~9.1.6",
