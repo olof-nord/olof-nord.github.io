@@ -1,0 +1,31 @@
+name: Olof Nord GitHub Pages pipeline
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  lint-build:
+    name: Setup, lint, build and test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+
+      - name: Install dependencies
+        run: npm --prefix ./olof-site install
+
+      - name: Lint application
+        run: npm --prefix ./olof-site run lint
+
+      - name: Build application
+        run: npm --prefix ./olof-site run build
+
+      - name: Run tests
+        run: npm --prefix ./olof-site test -- --configuration=ci
