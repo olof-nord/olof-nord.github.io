@@ -2,6 +2,8 @@
 
 The GitHub homepage for me and my projects.
 
+This page can be accessed at [olof-nord.github.io](https://olof-nord.github.io/)
+
 ## Technologies used
 ### Frameworks
 - [Angular 9](https://github.com/angular/angular) for its web framework.
