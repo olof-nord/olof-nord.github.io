@@ -24,8 +24,8 @@ describe('HeaderComponent', () => {
 
   }));
 
-  it('should render a nav with three elements', () => {
+  it('should render a nav with two elements', () => {
     expect(fixture.nativeElement.querySelectorAll('.nav-item').length)
-      .toEqual(3);
+      .toEqual(2);
   });
 });

@@ -7,7 +7,9 @@
       "@assets/*": ["assets/*"],
       "@environments/*": ["environments/*"],
 
-      "@header/*": ["app/header/*"]
+      "@header/*": ["app/header/*"],
+      "@dashboard/*": ["app/dashboard/*"],
+      "@contact/*": ["app/contact/*"]
     },
     "outDir": "./dist/out-tsc",
     "sourceMap": true,

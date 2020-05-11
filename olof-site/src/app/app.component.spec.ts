@@ -4,6 +4,8 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { HeaderComponent } from '@header/header.component';
+import { ContactComponent } from '@contact/contact.component';
+import { DashboardComponent } from '@dashboard/dashboard.component';
 
 describe('AppComponent', () => {
   let component: AppComponent;
@@ -13,7 +15,9 @@ describe('AppComponent', () => {
     TestBed.configureTestingModule({
       declarations: [
         AppComponent,
-        HeaderComponent
+        HeaderComponent,
+        ContactComponent,
+        DashboardComponent
       ],
       imports: [
         NgbModule
@@ -25,8 +29,8 @@ describe('AppComponent', () => {
     fixture.detectChanges();
   }));
 
-  it('should include the header navbar', () => {
+  it('should include the header and the right-hand-side navbar', () => {
     expect(fixture.nativeElement.querySelectorAll('.navbar').length)
-      .toEqual(1);
+      .toEqual(2);
   });
 });
