@@ -1,5 +1,9 @@
 # Olof Nord
 
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/olof-nord/olof-nord.github.io/Olof%20Nord%20GitHub%20Pages%20pipeline)](https://actions-badge.atrox.dev/olof-nord/olof-nord.github.io/goto?ref=master)
+[![Dependency Status](https://david-dm.org/olof-nord/olof-nord.github.io/status.svg?path=olof-site)](https://david-dm.org/olof-nord/olof-nord.github.io?path=olof-site) 
+[![devDependency Status](https://david-dm.org/olof-nord/olof-nord.github.io/dev-status.svg?path=olof-site&type=dev)](https://david-dm.org/olof-nord/olof-nord.github.io?path=olof-site&type=dev)
+
 The GitHub homepage for me and my projects.
 
 This page can be accessed at [olof-nord.github.io](https://olof-nord.github.io/)
