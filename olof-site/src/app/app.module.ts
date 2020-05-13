@@ -9,13 +9,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { HeaderComponent } from '@header/header.component';
 import { ContactComponent } from '@contact/contact.component';
 import { DashboardComponent } from '@dashboard/dashboard.component';
+import { AboutMeComponent } from '@about-me/about-me.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ContactComponent,
-    DashboardComponent
+    DashboardComponent,
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,

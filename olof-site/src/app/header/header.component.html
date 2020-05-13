@@ -4,12 +4,12 @@
   </button>
 
   <div [ngbCollapse]="isNavbarCollapsed" class="collapse navbar-collapse" id="navbarToggle">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home</a>
+    <ul ngbNav class="navbar-nav mr-auto">
+      <li ngbNavItem>
+        <a ngbNavLink routerLink="">Home</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Projects</a>
+      <li ngbNavItem>
+        <a ngbNavLink routerLink="about">About me</a>
       </li>
     </ul>
   </div>

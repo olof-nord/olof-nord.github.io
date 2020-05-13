@@ -9,7 +9,8 @@
 
       "@header/*": ["app/header/*"],
       "@dashboard/*": ["app/dashboard/*"],
-      "@contact/*": ["app/contact/*"]
+      "@contact/*": ["app/contact/*"],
+      "@about-me/*": ["app/about-me/*"]
     },
     "outDir": "./dist/out-tsc",
     "sourceMap": true,

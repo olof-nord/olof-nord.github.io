@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbCollapseModule, NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { HeaderComponent } from './header.component';
 
@@ -14,7 +14,8 @@ describe('HeaderComponent', () => {
         HeaderComponent
       ],
       imports: [
-        NgbCollapseModule
+        NgbCollapseModule,
+        NgbNavModule
       ]
     });
 
