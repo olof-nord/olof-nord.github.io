@@ -2,3 +2,7 @@
 
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+
+/* Importing IonIcons SCSS file. */
+$ionicons-font-path: '~ionicons/dist/fonts';
+@import '~ionicons/dist/scss/ionicons';
