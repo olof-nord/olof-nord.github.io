@@ -20,6 +20,7 @@ This project uses the following additional dependencies:
 - [puppeteer](https://github.com/puppeteer/puppeteer) for running tests with a headless (automated, hidden) Chromium
 - [bootstrap](https://github.com/twbs/bootstrap) for design and style management
 - [ng-bootstrap](https://github.com/ng-bootstrap/ng-bootstrap) for Angular bootstrap components
+- [ion-icons](https://github.com/ionic-team/ionicons) for icons
 
 ## License
 >You can check out the full license [here](https://github.com/olof-nord/olof-nord.github.io/blob/master/LICENSE)
