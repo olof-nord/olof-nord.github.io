@@ -1,28 +1,29 @@
 title = "Olof Nord"
-baseURL = "https://olof-nord.github.io"
+baseURL = "https://olof-nord.github.io/"
+DefaultContentLanguage = "en"
 license = "GPL-3.0"
 licenselink = "https://github.com/olof-nord/olof-nord.github.io/blob/master/LICENSE"
+enableGitInfo = true
 
 tags = ["blog", "technical"]
 
 theme = "beautifulhugo"
 
-[params]
+[Params]
+  subtitle = "Software engineer. Open source and privacy guy."
   favicon = "static/favicon.png"
+  commit = "https://gitlab.com/olof-nord/olof-nord.gitlab.io/tree/"
 
 [author]
   name = "Olof Nord"
+  github = "olof-nord"
+  twitter = "olofnord"
   linkedin = "olofnord"
-
-[[menu.main]]
-  identifier = "contact"
-  name = "Contact"
-  url = "/contact/"
-  weight = 1
+  xing = "Olof_Nord"
 
 [[menu.main]]
   identifier = "about"
   name = "About"
   url = "/about/"
-  weight = 2
+  weight = 1
 
