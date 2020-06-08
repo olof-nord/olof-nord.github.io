@@ -1,8 +1,8 @@
 # Olof Nord
 
-The GitHub homepage for me and my projects.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/06b889ba-1580-434b-8752-b80b7ea0ec20/deploy-status)](https://app.netlify.com/sites/priceless-hoover-930746/deploys)
 
-This page can be accessed at [olof-nord.github.io](https://olof-nord.github.io/)
+The GitHub homepage for me and my projects.
 
 ## Technologies used
 
