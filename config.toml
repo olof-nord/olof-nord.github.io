@@ -14,7 +14,7 @@ theme = "beautifulhugo"
   favicon = "static/favicon.png"
   commit = "https://gitlab.com/olof-nord/olof-nord.gitlab.io/tree/"
 
-[author]
+[Author]
   name = "Olof Nord"
   github = "olof-nord"
   twitter = "olofnord"
@@ -22,8 +22,13 @@ theme = "beautifulhugo"
   xing = "Olof_Nord"
 
 [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
+    weight = 1
+
+[[menu.main]]
   identifier = "about"
   name = "About"
   url = "/about/"
-  weight = 1
-
+  weight = 2

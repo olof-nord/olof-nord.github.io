@@ -7,6 +7,7 @@ The GitHub homepage for me and my projects.
 ## Technologies used
 
 - [Hugo](https://gohugo.io/)
+- [beautifulhugo](https://github.com/halogenica/beautifulhugo)
 
 ## License
 
