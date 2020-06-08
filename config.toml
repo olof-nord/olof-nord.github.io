@@ -1,21 +1,28 @@
 title = "Olof Nord"
-baseURL = "https://olof-nord.github.io/"
-languageCode = "en-us"
-theme = "anubis"
+baseURL = "https://olof-nord.github.io"
+license = "GPL-3.0"
+licenselink = "https://github.com/olof-nord/olof-nord.github.io/blob/master/LICENSE"
+
+tags = ["blog", "technical"]
+
+theme = "beautifulhugo"
+
+[params]
+  favicon = "static/favicon.png"
 
 [author]
   name = "Olof Nord"
+  linkedin = "olofnord"
 
-[menu]
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 1
+[[menu.main]]
+  identifier = "contact"
+  name = "Contact"
+  url = "/contact/"
+  weight = 1
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 2
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 2
 
