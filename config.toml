@@ -1,5 +1,5 @@
 title = "Olof Nord"
-baseURL = "https://olof-nord.github.io/"
+baseURL = "/"
 DefaultContentLanguage = "en"
 license = "GPL-3.0"
 licenselink = "https://github.com/olof-nord/olof-nord.github.io/blob/master/LICENSE"
