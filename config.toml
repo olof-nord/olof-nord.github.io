@@ -1,6 +1,6 @@
 title = "Olof Nord"
 baseURL = "/"
-DefaultContentLanguage = "en"
+defaultContentLanguage = "en"
 license = "GPL-3.0"
 licenselink = "https://github.com/olof-nord/olof-nord.github.io/blob/master/LICENSE"
 enableGitInfo = true
@@ -12,7 +12,7 @@ theme = "beautifulhugo"
 [Params]
   subtitle = "Software engineer. Open source and privacy guy."
   favicon = "static/favicon.png"
-  commit = "https://gitlab.com/olof-nord/olof-nord.gitlab.io/tree/"
+  commit = "https://github.com/olof-nord/olof-nord.github.io/tree/"
 
 [Author]
   name = "Olof Nord"
