@@ -2,12 +2,14 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/06b889ba-1580-434b-8752-b80b7ea0ec20/deploy-status)](https://app.netlify.com/sites/priceless-hoover-930746/deploys)
 
-The GitHub homepage for me and my projects.
+My personal portfolio website and blog
 
-## Technologies used
+## Technologies
 
 - [Hugo](https://gohugo.io/)
-- [beautifulhugo](https://github.com/halogenica/beautifulhugo)
+- [osprey](https://github.com/tomanistor/osprey)
+
+- [Netlify](https://www.netlify.com/)
 
 ## License
 
