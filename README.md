@@ -8,7 +8,6 @@ My personal portfolio website and blog
 
 - [Hugo](https://gohugo.io/)
 - [osprey](https://github.com/tomanistor/osprey)
-
 - [Netlify](https://www.netlify.com/)
 
 ## License
