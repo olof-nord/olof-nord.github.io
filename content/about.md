@@ -10,3 +10,7 @@ I have experience in designing, developing and implementing projects
 related to financial institutions and e-commerce.
 
 I am enthusiastic, positive and motivated, and always curious to learn more.
+
+I like people who make me think.
+ 
+He/him.

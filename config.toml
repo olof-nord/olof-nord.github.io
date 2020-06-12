@@ -24,6 +24,7 @@ theme = "osprey"
 
   copyright = true
   credit = true
+  favicon = "favicon.png"
 
 [[menu.main]]
   name = "About"
