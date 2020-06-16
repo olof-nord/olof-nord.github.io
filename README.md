@@ -4,14 +4,15 @@
 
 My personal portfolio website and blog
 
-## Technologies
+## Technologies used
 
-- [Hugo](https://gohugo.io/)
-- [osprey](https://github.com/tomanistor/osprey)
-- [Netlify](https://www.netlify.com/)
+- [Hugo](https://gohugo.io/) for its static page generator
+- [osprey](https://github.com/tomanistor/osprey) for its hugo theme
+- [Netlify](https://www.netlify.com/) for web project management
+- [Formspree](https://formspree.io/) for form management
 
 ## License
 
->You can check out the full license [here](https://github.com/olof-nord/olof-nord.github.io/blob/master/LICENSE)
+>You can check out the full license [here](https://github.com/olof-nord/olof.info/blob/master/LICENSE)
 
 This project is licensed under the terms of the **GPL-3.0** license.
