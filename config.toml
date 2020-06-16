@@ -15,6 +15,7 @@ theme = "osprey"
   tagline = "Software engineer. Open source and privacy guy."
   author = "Olof Nord"
   description = "Full-stack software engineer based in Berlin, Germany"
+  email = "olof.nord@tutanota.com"
 
   # Social media links in footer
   github = "olof-nord"
@@ -26,6 +27,9 @@ theme = "osprey"
   copyright = true
   credit = true
   favicon = "favicon.png"
+
+  # Formspree contact form
+  ajaxFormspree = true
 
 [[menu.main]]
   name = "About"
