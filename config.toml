@@ -18,6 +18,7 @@ theme = "osprey"
 
   # Social media links in footer
   github = "olof-nord"
+  gitlab = "olof-nord"
   twitter = "olofnord"
   linkedin = "olofnord"
   xing = "Olof_Nord"
