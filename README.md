@@ -1,6 +1,6 @@
 # Olof Nord
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/06b889ba-1580-434b-8752-b80b7ea0ec20/deploy-status)](https://app.netlify.com/sites/priceless-hoover-930746/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/58262ebd-e5d9-47e7-afe1-be59ac670cf0/deploy-status)](https://app.netlify.com/sites/olof/deploys)
 
 My personal portfolio website and blog
 
