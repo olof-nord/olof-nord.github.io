@@ -47,16 +47,17 @@ Signal, an app I heavily rely on to communicate with friends and family, is not 
 messaging app [Axolotl](https://open-store.io/app/textsecure.nanuc) did allow me to both send and receive messages,
 but lacks many of the standard features offered by Android Signal.
 
-There is a fully integrated app store, [Open Store](https://open-store.io/), but without users of course there are,
-of course, fewer apps.
+There is a fully integrated app store, [Open Store](https://open-store.io/), but without users there are, of course,
+fewer apps.
 
-Quickly realising what that the "Pinephone is maybe not your daily driver yet." sentence from the PinePhone UBPorts readme
-means, I decide to (at least) use the phone as my alarm to wake up in the morning. That, unfortunately also turns out
-was not possible: in my naivety, I assumed that the device had a battery time lasting from late evening to the morning.
+Quickly realising what that the "Pinephone is maybe not your daily driver yet." sentence from the PinePhone UBPorts
+[readme](https://gitlab.com/ubports/community-ports/pinephone/#what-works-what-doesnt) means, I decide to (at least)
+use the phone as my alarm to wake up in the morning. That, unfortunately also turns out was not possible: in my naivety,
+I assumed that the device had a battery time lasting from late evening to the morning.
 
-Nope. It has a battery life, equivalent of a standard laptop - say three, four hours. This should, according to a forum
-[post](https://forum.pine64.org/showthread.php?tid=9957) in the Pine64 official UBPorts forum section, be resolved
-by now. I have not yet tried this out though.
+Nope. The PinePhone, with UBPorts, has a battery life equivalent of a standard laptop - say three, four hours.
+This should, according to a forum [post](https://forum.pine64.org/showthread.php?tid=9957) in the Pine64 official
+UBPorts forum section, be resolved by now. I have not yet tried this out though.
 
 What I successfully managed to do, was to both send and receive a text and a Signal message. I could also use the touch
 screen, and WiFi worked most of the time. Using the camera and making calls did not.
@@ -65,7 +66,8 @@ To replace my current phone, I have some higher demands.
 
 I do however really support the project, and see its potential - it was refreshing to use its swipe-based UI where most
 actions are swipes starting from the edges of the phone. Using a shell, and having full control and access to the device,
-is also something which makes absolute sense to me once available.
+is also something which makes absolute sense to me once available. The docking mode, where the smartphone is converging
+to a fully-fledged (Ubuntu) desktop system, is also something which really interests me.
 
 Up next is trying out the [PostmarketOS](https://wiki.postmarketos.org/wiki/PINE64_PinePhone_(pine64-pinephone))
 with the [phosh](https://github.com/agx/phosh) GNOME mobile desktop interface, the same setup which the guys at
