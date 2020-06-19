@@ -10,7 +10,7 @@
     "url": "git@github.com:olof-nord/olof.info.git"
   },
   "scripts": {
-	  "markdownlint": "markdownlint '**/*.md' -i '**/node_modules/**' -i '**/themes/**'",
+	  "markdownlint": "markdownlint '**/*.md' --ignore '**/node_modules/**' --ignore '**/themes/**'",
     "test": "npm run markdownlint"
   },
   "devDependencies": {
