@@ -10,10 +10,12 @@
     "url": "git@github.com:olof-nord/olof.info.git"
   },
   "scripts": {
-	  "markdownlint": "markdownlint '**/*.md' --ignore '**/node_modules/**' --ignore '**/themes/**'",
-    "test": "npm run markdownlint"
+    "markdownlint": "markdownlint '**/*.md' --ignore '**/node_modules/**' --ignore '**/themes/**'",
+    "linkinator": "linkinator site",
+    "test": "npm run markdownlint && npm run linkinator"
   },
   "devDependencies": {
+    "linkinator": "^2.1.1",
     "markdownlint-cli": "^0.23.1"
   }
 }
