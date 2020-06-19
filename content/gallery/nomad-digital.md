@@ -19,6 +19,7 @@ The work focused on maintaining the reliable operation and upkeep of the systems
 the company with an emphasis on Linux environments, Virtualisation and Cisco networking equipment.
 
 Skills acquired ranges from
+
 * Experience with various monitoring software
 * Troubleshooting and error diagnosis for both software and hardware
 * Computer network administration
@@ -26,6 +27,7 @@ Skills acquired ranges from
 * Backups and their implementations
 
 Technical Skills
+
 * Linux
 * Virtualisation - Citrix XenServer
 * Server Hardware

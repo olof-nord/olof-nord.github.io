@@ -20,19 +20,23 @@ consulting and services business.
 ### Tasks
 
 #### Oracle CRM solutions
+
 Setting up and customising systems such as Sales Cloud, Service Cloud (RightNow) as well as Commerce Cloud and making
 use of cloud tools such as Integration Cloud.
 
 #### Mobile cross-platform development
+
 Worked with a relatively young e-commerce tablet application (Demandware Endless Aisle).
 Customizations such as country-specific features were developed in discussion with customer requirements, as were
 layouts and designs. Also backend development came into place, extending Demandware’s OCAPI.
 
 #### Web frontend development
+
 A re-design and re-implementation of the web frontend of an Oracle Service Cloud system,
 putting in place a mobile-first approach.
 
-#### Consulting 
+#### Consulting
+
 Experience with external as well as internal consulting, accompanied with project planning, requirement gathering and
 analysing allowed me to gain a very all-round consultancy skillset.
 

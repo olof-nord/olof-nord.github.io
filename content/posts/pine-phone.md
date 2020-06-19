@@ -15,12 +15,12 @@ GNU/Linux to the smartphone world.
 My interest started back when I first heard of the
 [Firefox OS](https://en.wikipedia.org/wiki/Firefox_OS), and something which I was reminded about on the last JSConf
 Berlin, with the talk from Grann Means
-[What happened to my JavaScript phone?](https://2019.jsconf.eu/garann-means/what-happened-to-my-javascript-phone.html)    
+[What happened to my JavaScript phone?](https://2019.jsconf.eu/garann-means/what-happened-to-my-javascript-phone.html)
 
 Having exitedly pre-ordered a Purism [Librem 5](https://puri.sm/products/librem-5/) in July 2019, (still waiting),
 I slowly realised I have to look around for other options.
 
-Well, when I first read about the PinePhone through Twitter, I did not really believe it - the price is approx 1/3 of - 
+Well, when I first read about the PinePhone through Twitter, I did not really believe it - the price is approx 1/3 of -
 the Librem 5, more like a keyboard or a mouse for comparision, I took the chance.
 
 Well, a few months later, after ome initial troubles with the tax authorities (the device has no european CE
@@ -41,7 +41,7 @@ its very (very) early stages.
 The setup reminds me of the days where Ubuntu would only support a few selected WiFi network cards.
 Just this time, it is not wifi, but phone calls. And without phone calls, the `phone` part in smartphone gets a bit lost.
 I have yet to do a successful call. Successful meaning I hear someone, and someone else hears me.
- 
+
 What adds to the trouble is that there is currently no app ecosystem available:
 Signal, an app I heavily rely on to communicate with friends and family, is not available. The Signal compatible
 messaging app [Axolotl](https://open-store.io/app/textsecure.nanuc) did allow me to both send and receive messages,
@@ -62,7 +62,7 @@ UBPorts forum section, be resolved by now. I have not yet tried this out though.
 What I successfully managed to do, was to both send and receive a text and a Signal message. I could also use the touch
 screen, and WiFi worked most of the time. Using the camera and making calls did not.
 
-To replace my current phone, I have some higher demands. 
+To replace my current phone, I have some higher demands.
 
 I do however really support the project, and see its potential - it was refreshing to use its swipe-based UI where most
 actions are swipes starting from the edges of the phone. Using a shell, and having full control and access to the device,

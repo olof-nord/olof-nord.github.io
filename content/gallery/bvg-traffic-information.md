@@ -14,7 +14,8 @@ draft : false
 
 A traffic information website to present bus, tram, subway and ferry public transport status information in Berlin.
 
-The project is a redesign of the [BVG Verkehrsmeldungen](https://www.bvg.de/de/Fahrinfo/Verkehrsmeldungen) section of the BVG website.
+The project is a redesign of the [BVG Verkehrsmeldungen](https://www.bvg.de/de/Fahrinfo/Verkehrsmeldungen) section of
+the BVG website.
 
 ### Tools
 

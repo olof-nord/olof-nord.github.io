@@ -1,0 +1,19 @@
+{
+  "name": "olof.info",
+  "description": "My personal portfolio, website and blog",
+  "author": "Olof Nord",
+  "version": "1.0.0",
+  "license": "GPL-3.0",
+  "homepage": "https://olof.info",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:olof-nord/olof.info.git"
+  },
+  "scripts": {
+	  "markdownlint": "markdownlint '**/*.md' -i '**/node_modules/**' -i '**/themes/**'",
+    "test": "npm run markdownlint"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.23.1"
+  }
+}

@@ -17,10 +17,10 @@ using a more interactive project-based approach.
 
 The organisation is a NGO based in Hamburg, with courses all over Germany.
 
-My participation have been focused around workshops using the [micro:bit](https://en.wikipedia.org/wiki/Micro_Bit) 
+My participation have been focused around workshops using the [micro:bit](https://en.wikipedia.org/wiki/Micro_Bit)
 platform, which aims to teach programming concepts and logic through a drag and drop GUI.
 
-Despite its simplicity, the micro:bit allows for an impressive creativity and freedom.   
+Despite its simplicity, the micro:bit allows for an impressive creativity and freedom.
 
 ### Tools
 
