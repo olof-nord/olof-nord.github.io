@@ -28,7 +28,8 @@ certification), the phone arrives.
 
 I unpack, turn the device on and is welcomed by a demo screen, used for testing the touchscreen. The phone as it
 arrives, has as much functionality as when you buy a new SSD or a CPU. It comes without an OS pre-installed.
-Why am I surprised? After all Pine64 did warn me both once and twice, this is not ready for end-users.
+Why am I surprised? After all Pine64 did warn me both during the purchase process and in the
+[welcome letter](https://forum.pine64.org/showthread.php?tid=8591), this is not ready for end-users.
 
 #### Ubuntu Touch (UBPorts)
 
