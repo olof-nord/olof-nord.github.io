@@ -1,6 +1,12 @@
+# This is the Netlify build configuration file.
+# Netlify documentation regarding this file can be fournd here:
+# https://docs.netlify.com/configure-builds/file-based-configuration/
+
 # Settings in the [build] context are global and are applied to all contexts
 # unless otherwise overridden by more specific contexts.
+
 [build]
+base = "/"
 publish = "public"
 command = "hugo --gc --minify"
 
