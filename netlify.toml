@@ -14,3 +14,11 @@ command = "hugo --gc --minify"
 HUGO_VERSION = "0.72.0"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
+
+[[headers]]
+  for = "/*"
+
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
