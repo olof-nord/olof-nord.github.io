@@ -22,3 +22,10 @@ HUGO_ENABLEGITINFO = "true"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
+
+[[plugins]]
+  package = "netlify-plugin-hugo-cache-resources"
+
+	[plugins.inputs]
+    # To show more verbose logs (optional, default = true)
+    debug = true
