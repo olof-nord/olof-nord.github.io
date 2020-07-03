@@ -1,31 +1,31 @@
 <head>
-  {{ if .Site.Params.matomoTagManger }}
-    <!-- Matomo -->
-    <script type="text/javascript">
-      var _paq = window._paq || [];
-      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      (function() {
-        var u="https://{{ .Site.Params.matomoTagManger }}.matomo.cloud/";
-        _paq.push(['setTrackerUrl', u+'matomo.php']);
-        _paq.push(['setSiteId', '1']);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.defer=true; g.src='//cdn.matomo.cloud/{{ .Site.Params.matomoTagManger }}.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
-      })();
-    </script>
-    <!-- End Matomo Code -->
+  {{- if .Site.Params.matomoTagManger -}}
+  <!-- Matomo -->
+  <script type="text/javascript">
+    var _paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="https://{{ .Site.Params.matomoTagManger }}.matomo.cloud/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '1']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src='//cdn.matomo.cloud/{{ .Site.Params.matomoTagManger }}.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Matomo Code -->
   {{ end }}
 
   <title>
     {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
-    {{ if .IsHome -}}
+    {{- if .IsHome -}}
       {{ .Site.Title }}
     {{- else if .Params.heading -}}
       {{ .Params.heading }}
     {{- else -}}
       {{ .Title }} | {{ .Site.Title }}
-    {{- end }}
+    {{ end }}
   </title>
 
   <meta name="title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else if .Params.heading }}{{ .Params.heading }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end}}">
@@ -46,11 +46,11 @@
     <meta name="description" content="{{ .Summary }}">
   {{ end }}
 
-  {{ if .Site.Params.author }}
+  {{- if .Site.Params.author -}}
     <meta name="author" content="{{ .Site.Params.author }}">
   {{ end }}
 
-  {{ if .Site.Params.twitter }}
+  {{- if .Site.Params.twitter -}}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@{{ .Site.Params.twitter }}">
     <meta name="twitter:creator" content="@{{ .Site.Params.twitter }}">
@@ -60,7 +60,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ .Site.BaseURL }}">
 
-  {{ if .Site.Params.opengraphImage}}
+  {{- if .Site.Params.opengraphImage -}}
     <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.opengraphImage}}">
   {{ end }}
 
@@ -79,24 +79,24 @@
 
   <link rel="canonical" href="{{ .Permalink }}">
 
-  {{ with .OutputFormats.Get "RSS" }}
+  {{- with .OutputFormats.Get "RSS" -}}
     <link href="{{ .Permalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}">
   {{ end }}
 
   {{ $style := resources.Get "sass/main.scss" | resources.ToCSS (dict "targetPath" "style.css" "outputStyle" "compressed") | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}" type="text/css">
 
-  {{ if .Site.Params.customCSS }}
+  {{- if .Site.Params.customCSS -}}
     {{ partial "css.html" . }}
   {{ end }}
 
-  {{ if .Site.Params.lazyLoading }}
+  {{- if .Site.Params.lazyLoading -}}
     {{ $lazyloadJS := resources.Get "js/vendor/lazysizes.min.js" }}
     <style>.lazyload{opacity:.0001;}.logo .lazyload{min-width:10em;}</style>
     <script src="{{ $lazyloadJS.Permalink }}" async></script>
   {{ end }}
 
-  {{ if .Site.Params.highlightJS }}
+  {{- if .Site.Params.highlightJS -}}
     {{ if .Site.Params.highlightJSStyle }}
       <link rel="stylesheet" href="{{ .Site.Params.highlightJSStyle }}">
     {{ else }}
