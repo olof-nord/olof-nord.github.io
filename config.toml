@@ -24,6 +24,8 @@ theme = "osprey"
   linkedin = "olofnord"
   xing = "Olof_Nord"
 
+  matomoTagManger = "olof"
+
   copyright = true
   credit = true
   favicon = "favicon.png"
