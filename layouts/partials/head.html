@@ -91,9 +91,9 @@
   {{ end }}
 
   {{ if .Site.Params.lazyLoading }}
-    {{ $style := resources.Get "js/vendor/lazysizes.min.js" }}
+    {{ $lazyloadJS := resources.Get "js/vendor/lazysizes.min.js" }}
     <style>.lazyload{opacity:.0001;}.logo .lazyload{min-width:10em;}</style>
-    <script src="{{ $style.Permalink }}" async></script>
+    <script src="{{ $lazyloadJS.Permalink }}" async></script>
   {{ end }}
 
   {{ if .Site.Params.highlightJS }}
