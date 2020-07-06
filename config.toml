@@ -4,7 +4,7 @@ baseURL = "/"
 defaultContentLanguage = "en"
 
 license = "GPL-3.0"
-licenselink = "https://github.com/olof-nord/olof-nord.github.io/blob/master/LICENSE"
+licenselink = "https://github.com/olof-nord/olof.info/blob/master/LICENSE"
 
 enableGitInfo = true
 enableRobotsTXT = true
@@ -15,7 +15,7 @@ theme = "osprey"
   tagline = "Software engineer. Open source and privacy guy."
   author = "Olof Nord"
   description = "Full-stack software engineer based in Berlin, Germany"
-  email = "olof.nord@tutanota.com"
+  email = "contact@olof.info"
 
   # Social media links in footer
   github = "olof-nord"
