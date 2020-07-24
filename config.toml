@@ -26,7 +26,7 @@ theme = "osprey"
 
   matomoTagManger = "olof"
 
-  copyright = true
+  copyright = false
   credit = true
   favicon = "favicon.png"
 
