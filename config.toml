@@ -1,6 +1,6 @@
 title = "Olof Nord"
 
-baseURL = "/"
+baseURL = "https://olof.info"
 defaultContentLanguage = "en"
 
 license = "GPL-3.0"

@@ -48,7 +48,7 @@ DKB, Commerzbank and Swedbank.
 
 This diagram ia an attempt at visualising how the entities work together.
 
-![Card transaction flow](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/olof-nord/olof.info/master/static/images/posts/card-transaction-overview.puml)
+![Card transaction flow](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/olof-nord/olof.info/master/static/images/posts/card-transaction-overview.puml)
 
 Now, when it gets interesting is that as a customer, when you choose your bank, you only change the issuing bank.
 
