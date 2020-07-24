@@ -5,9 +5,9 @@ date: 2020-06-16T22:27:04+02:00
 draft: false
 ---
 
-### My experiences with the PinePhone
+## My experiences with the PinePhone
 
-#### Background
+### Background
 
 I have long been looking forward to a smartphone alternative which does respect my privacy, and as well brings actual
 GNU/Linux to the smartphone world.
@@ -31,7 +31,7 @@ arrives, has as much functionality as when you buy a new SSD or a CPU. It comes 
 Why am I surprised? After all Pine64 did warn me both during the purchase process and in the
 [welcome letter](https://forum.pine64.org/showthread.php?tid=8591), this is not ready for end-users.
 
-#### Ubuntu Touch (UBPorts)
+### Ubuntu Touch (UBPorts)
 
 After some initial research, I decided to install [Ubuntu Touch](https://ubuntu-touch.io/), as I understood that was the
 most mature GNU/Linux smartphone option available.

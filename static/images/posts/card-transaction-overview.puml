@@ -1,0 +1,11 @@
+@startuml
+
+title Card transaction flow \n
+
+(*) --> "Aquirer"
+"Aquirer" --> "Processor"
+"Processor" --> "Aquirer"
+"Issuer" --> "Processor"
+"Processor" --> "Issuer"
+
+@enduml

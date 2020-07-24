@@ -5,8 +5,6 @@ date: 2020-07-06T20:02:41+02:00
 draft: false
 ---
 
-## Leaving Google Maps
-
 In my ongoing quest of minimizing my Google dependency I have now successfully moved away from Google Maps.
 
 The change included two big steps: first choosing a different app/platform, and secondly migrate my Google Maps data.
