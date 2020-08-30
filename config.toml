@@ -26,8 +26,7 @@ theme = "osprey"
 
   matomoTagManger = "olof"
 
-  copyleft = true
-  credit = true
+  footer = "All text [CC-BY-SA](http://creativecommons.org/licenses/by-sa/4.0/) & code [GPL](https://www.gnu.org/licenses/gpl-3.0.en.html) | [No AMP](https://www.polemicdigital.com/google-amp-go-to-hell/)"
   favicon = "favicon.png"
 
   # Formspree contact form
