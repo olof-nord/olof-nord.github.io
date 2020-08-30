@@ -14,7 +14,7 @@ theme = "osprey"
 [Params]
   tagline = "Software engineer. Open source and privacy guy."
   author = "Olof Nord"
-  description = "Full-stack software engineer based in Berlin, Germany"
+  description = "Olof Nord's personal website"
   email = "contact@olof.info"
 
   # Social media links in footer
